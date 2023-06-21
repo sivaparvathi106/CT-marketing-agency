@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US Mountains</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      margin: 20px;
+    }
+
+    .mountain-card {
+      background-color: #f4f4f4;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      margin-bottom: 20px;
+      overflow: hidden;
+      background-image: url(CT\ Mountains\ 1.jfif);
+      background-position: center;
+      width: 500px;
+      height: 200px;
+    }
+
+    .mountain-card img {
+      width: 200px;
+      object-fit: cover;
+      background-image: -moz-linear-gradient();
+    }
+
+    .mountain-card-content {
+      padding: 20px;
+    }
+
+    .mountain-card h2 {
+      margin: 0;
+    }
+
+    .mountain-card p {
+      margin-top: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .mountain-card {
+        flex-direction: column;
+      }
+
+      .mountain-card img {
+        width: 100%;
+        height: auto;
+      }
+    
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>US Mountains</h1>
+  </header>
+  <main>
+    <div class="mountain-card">
+      <img src="CT Mountains 1.jfif" alt="Mountain 1">
+      <div class="mountain-card-content">
+        <h2>Mount Rainier</h2>
+        <p>Mount Rainier is the highest mountain in the state of Washington and the Cascade Range.</p>
+      </div>
+    </div>
+    <div class="mountain-card">
+      <img src="mountains2.jfif" alt="Mountain 2">
+      <div class="mountain-card-content">
+        <h2>Mount Whitney</h2>
+        <p>Mount Whitney is the highest summit in the contiguous United States.</p>
+      </div>
+    </div>
+    <div class="mountain-card">
+      <img src="mounatin 3.jfif" alt="Mountain 3">
+      <div class="mountain-card-content">
+        <h2>Pikes Peak</h2>
+        <p>Pikes Peak is one of the most famous mountains in the United States and is located in Colorado.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
